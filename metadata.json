@@ -1,0 +1,8 @@
+
+{
+  "name": "Interactive English Tutor",
+  "description": "An AI-powered English tutor that helps you learn and practice spoken English through interactive voice conversations, with explanations available in a Tamil-English mix.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

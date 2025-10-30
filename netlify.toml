@@ -1,0 +1,16 @@
+[build]
+  # The directory that contains the built assets (Vite’s default output)
+  publish = "dist"
+
+  # The command to build the frontend app
+  command = "npm run build"
+
+[[redirects]]
+  # SPA fallback: serve index.html for any non-file route
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[functions]
+  # If you later add Netlify Functions (e.g., for Gemini API proxy)
+  directory = "netlify/functions"
